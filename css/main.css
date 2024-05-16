@@ -74,7 +74,7 @@ body {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: #E1E1E1;
 }
 
 /**
@@ -102,7 +102,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color: #E8E8E8;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -156,7 +156,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #d0d0d0;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -1036,7 +1036,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #313131;
+	color: #3b3b3b;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1095,7 +1095,6 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1119,7 +1118,6 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
 }
 
@@ -1229,8 +1227,9 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	background: #111111;
 	padding: 24px 30px 42px;
+	border: #004c6c solid;
 	margin: 0;
 	width: 100%;
 	height: auto;
@@ -1490,7 +1489,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background-color: #151515;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1510,10 +1509,7 @@ header .logo a {
 	margin: .9rem 0 0 0;
 	float: left;
 }
-.intro-info .lead {
-	text-align: left;
-	padding-left: 13rem;
-}
+
 
 .about-content {
 	position: relative;
@@ -1537,7 +1533,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #d0d0d0;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1623,6 +1619,7 @@ header .logo a {
 #resume {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	background: #151515;
 }
 
 #resume .resume-header {
@@ -2413,6 +2410,8 @@ header .logo a {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
+	justify-content: center;
+	display: flex;
 }
 .contact-info .collapse {
 	padding: 0;
